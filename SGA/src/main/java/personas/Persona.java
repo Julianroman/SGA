@@ -2,10 +2,9 @@ package personas;
 //INVESTIGAR ID
 public abstract class Persona {
 	
-	public Persona(int documento, int legajo, String nombre, String apellido) {
+	public Persona(int documento, String nombre, String apellido) {
 		super();
-		this.setDocumento(documento);
-		this.legajo = legajo;
+		this.documento = documento;
 		this.nombre = nombre;
 		this.apellido = apellido;
 	}
